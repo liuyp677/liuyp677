@@ -11,3 +11,5 @@ liuyp677/liuyp677 is a ✨ special ✨ repository because its `README.md` (this 
 You can click the Preview link to take a look at your changes.
 --->
 
+This file will be a place to recorde the way of my programming skill. 
+Yes, of course, I'm a rookie. 
