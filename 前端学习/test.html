@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>标题
+
+    <link rel="stylesheet" href="style.css">
+
+
+    <style>
+        @font-face {
+            font-family: 'iconfont';
+            /* Project id 3615336 */
+            src: url('font/iconfont.woff2') format('woff2'),
+                url('font/iconfont.woff') format('woff'),
+                url('font/iconfont.ttf') format('truetype');
+        }
+
+        /* 类选择器，用class，中间通过空格选择多个标签 */
+        .red {
+            width: 20px;
+            height: 40px;
+            background-color: blue;
+
+        }
+
+        /* 标签选择器，对于同种标签进行同化 */
+        h1 {
+            width: 150px;
+            height: 50px;
+            background-color: brown;
+            font-family: '宋体';
+            /* 字体简写方式，带规格
+        font : font-style font-weight font-size/line-height font-family; */
+
+        }
+
+        /* id选择器，只能使用一次 */
+        #idx {
+            color: aquamarine;
+        }
+
+        /* 相当于全选 */
+        * {
+            color: rgb(0, 0, 0);
+        }
+
+
+
+        input:focus {
+            color: greenyellow;
+        }
+
+        div {
+            font: 700 14px/1.5 'Microsoft YaHei';
+            color: black;
+        }
+
+        .cont-test {
+            font-family: 'iconfont';
+            font-size: 30px;
+            color: blue;
+        }
+    </style>
+
+</head>
+
+<body>
+    <hr>
+    <table border="1" align="center">
+        <thead>
+            <td>标题1</td>
+            <td>标题2</td>
+            <td>标题3</td>
+        </thead>
+        <tbody>
+            <tr>
+                <th>2.1</th>
+                <th>2.2</th>
+                <th>2.3</th>
+            </tr>
+            <tr>
+                <th>3.1</th>
+                <th>3.2</th>
+                <th>3.3</th>
+            </tr>
+        </tbody>
+
+    </table>
+
+    <table>
+        <tr>
+            <td>
+                name:
+            </td>
+            <td>
+                <input type="radio" name="test" id="man" checked><label for="man">man</label>
+                <input type="radio" name="test" id="woman"><label for="woman">woman</label>
+            </td>
+        </tr>
+    </table>
+
+    <div class="red">
+        we
+    </div>
+
+
+    <div>
+        我是谁
+        <a href="#">中国天气网</a>
+        <input type="text" value="请输入查询条件">
+        <button>搜索</button>
+    </div>
+    <p class="pic">
+        <img src="images/可能性.jpg" alt="可能性" style="width: 150px;">
+    </p>
+
+
+    <p style="color: green;">测试一下</p>
+
+
+    <a href="#">谁也不知道</a>
+
+
+
+    <div class="cont-test">&#xe63b;</div>
+
+
+    <script src="test.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,121 @@
+{
+  "id": "3615336",
+  "name": "test",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "测试情况",
+  "glyphs": [
+    {
+      "icon_id": "17726569",
+      "name": "启用",
+      "font_class": "qiyong",
+      "unicode": "e63a",
+      "unicode_decimal": 58938
+    },
+    {
+      "icon_id": "18166547",
+      "name": "预览",
+      "font_class": "yulan",
+      "unicode": "e63b",
+      "unicode_decimal": 58939
+    },
+    {
+      "icon_id": "18298271",
+      "name": "角色列表",
+      "font_class": "jiaoseliebiao",
+      "unicode": "e645",
+      "unicode_decimal": 58949
+    },
+    {
+      "icon_id": "18349931",
+      "name": "财政",
+      "font_class": "caizheng",
+      "unicode": "e647",
+      "unicode_decimal": 58951
+    },
+    {
+      "icon_id": "18349932",
+      "name": "省级",
+      "font_class": "shengji",
+      "unicode": "e648",
+      "unicode_decimal": 58952
+    },
+    {
+      "icon_id": "18574041",
+      "name": "更多",
+      "font_class": "gengduo",
+      "unicode": "e649",
+      "unicode_decimal": 58953
+    },
+    {
+      "icon_id": "18574042",
+      "name": "展开收缩",
+      "font_class": "zhankaishousuo",
+      "unicode": "e64a",
+      "unicode_decimal": 58954
+    },
+    {
+      "icon_id": "29483591",
+      "name": "文件夹",
+      "font_class": "wenjianjia-01",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "30075692",
+      "name": "选择",
+      "font_class": "xuanze-01",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "30075738",
+      "name": "加顿",
+      "font_class": "jiadun-01",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "31353045",
+      "name": "文件",
+      "font_class": "a-Frame179",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "31353046",
+      "name": "正确",
+      "font_class": "a-Frame176",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "31353047",
+      "name": "上传",
+      "font_class": "a-Frame170",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "31353048",
+      "name": "右箭头",
+      "font_class": "a-Frame168",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "31353049",
+      "name": "筛选",
+      "font_class": "a-Frame186",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "31353057",
+      "name": "返回",
+      "font_class": "a-Frame181",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    }
+  ]
+}

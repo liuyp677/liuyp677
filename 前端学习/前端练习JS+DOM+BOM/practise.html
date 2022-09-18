@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+<body>
+    <div id="time" index="">id选择器测试</div>
+    <script>
+        var test = document.getElementById('time')
+        console.dir(test)  //可以查看其中可调用的参数
+        console.log(test)
+    </script>
+
+    <ol>
+        <li>特定查找ol下面的li元素</li>
+        <li>特定查找ol下面的li元素</li>
+        <li>特定查找ol下面的li元素</li>
+    </ol>
+    <script>
+        var ol = document.getElementsByTagName('ol') //使用id会更方便，这里获取的是伪数组
+        var lis = ol[0].getElementsByTagName('li')
+        console.log(lis)
+
+        var firstBox = document.querySelector('#time')  //标签选择器，仅选择第一个标签
+        console.log(firstBox)
+
+        var bodyEle = document.body //获取特殊元素<body>
+        console.log(bodyEle)
+        var htmlEle = document.documentElement  //获取整个html元素
+        console.log(htmlEle)
+
+        //innerText不识别html语言，删除空格和换行，innerHTML相反
+
+        //输入框内文字消失用 onfocus、onblur获得或失去焦点；用html5的placeholder一劳永逸
+
+        //可以通过更改样式类名来修改样式，适合修改量较多的事件
+
+        //element.getAttribute('id')获取属性值的第二种方法，可获得自定义属性值
+        var a = document.getElementById('time').getAttribute('index')
+        console.log(a)
+        document.getElementById('time').setAttribute('index', '1')
+        var b = document.getElementById('time').getAttribute('index')
+        console.log(b)
+        document.getElementById('time').removeAttribute('index')
+    </script>
+    <script src="practise.js"></script>
+</body>
+
+</html>

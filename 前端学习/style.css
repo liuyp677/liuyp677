@@ -1,0 +1,12 @@
+div {
+    color: red;
+
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: blue;
+}

@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .nav {
+
+            height: 40px;
+
+            background: #eee;
+
+            /* 给导航加个阴影吧 */
+
+            box-shadow: 0px 1px 2px #666;
+
+        }
+
+        * {
+
+            margin: 0;
+
+            padding: 0;
+
+            /* 去掉内外边距 */
+
+            text-decoration: none;
+
+            list-style: none;
+
+            /* 去掉不必要的样式 */
+
+        }
+
+        .libt {
+
+            /* 让列表横排 */
+
+            float: left;
+
+            /* 设置它的宽高 */
+
+            width: 100px;
+
+            height: 40px;
+
+            /* 让它里面的字水平垂直居中 */
+
+            text-align: center;
+
+            line-height: 40px;
+
+        }
+
+        /* 设置超链接样式 */
+
+        .libt a {
+
+            color: #000;
+
+            /* 把链接改成块显示 */
+
+            display: block;
+
+        }
+
+        /* 设置鼠标悬停时背景色为灰色 */
+
+        .libt a:hover {
+
+            background: #ccc;
+
+        }
+
+        .droplist {
+
+            /* 我们给它背景色，给它阴影 */
+
+            background: #eee;
+
+            box-shadow: 0px 1px 2px #666;
+
+            /* 这里是隐藏 */
+
+            display: none;
+
+        }
+
+        /* 这里是显示 */
+
+        .libt:hover .droplist {
+
+            display: block;
+
+        }
+
+        .droplist li {
+
+            /* 用上边框线把每一项隔开 */
+
+            border-top: 1px solid #ccc;
+
+            height: 40px;
+
+        }
+
+        /* 这里是显示二级下拉 */
+
+        .droplist li:hover .droplist2 {
+
+            display: block;
+
+        }
+
+        .droplist2 {
+
+            /* 先进行相对定位 */
+
+            position: relative;
+
+            left: 100px;
+
+            top: -40px;
+
+            /* 加背景色 */
+
+            background: #eee;
+
+            box-shadow: 0px 1px 2px #666;
+
+            /* 隐藏 */
+
+            display: none;
+
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+    <!-- 我们先创建导航条。 -->
+
+    <!-- 现在开始我们的一级下拉菜单了 -->
+
+    <!-- 接下来是下拉菜单的隐藏和显示 -->
+
+    <!-- 现在开始我们的二级下拉菜单 -->
+
+    <!-- 接下来是隐藏二级下拉，再显示二级下拉 -->
+
+    <!-- 最后总结一下，做下拉的时候，显示本级元素要用父级元素的：hover来实现 -->
+
+    <div class="nav">
+
+        <ul class="ullist">
+
+            <li class="libt">
+
+                <a href="#">菜单项</a>
+
+                <ul class="droplist">
+
+                    <li><a href="#">我是下拉1</a></li>
+
+                    <li>
+
+                        <a href="#">我是下拉1</a>
+
+                        <ul class="droplist2">
+
+                            <li><a href="#">我是下拉2</a></li>
+
+                            <li><a href="#">我是下拉2</a></li>
+
+                            <li><a href="#">我是下拉2</a></li>
+
+                            <li><a href="#">我是下拉2</a></li>
+
+                            <li><a href="#">我是下拉2</a></li>
+
+                        </ul>
+
+                    </li>
+
+                    <li><a href="#">我是下拉1</a></li>
+
+                    <li><a href="#">我是下拉1</a></li>
+
+                    <li><a href="#">我是下拉1</a></li>
+
+                </ul>
+
+            </li>
+
+            <li class="libt">
+
+                <a href="#">菜单项</a>
+
+                <ul class="droplist">
+
+                    <li><a href="#">我是下拉1</a></li>
+
+                    <li><a href="#">我是下拉1</a></li>
+
+                    <li><a href="#">我是下拉1</a></li>
+
+                    <li><a href="#">我是下拉1</a></li>
+
+                    <li><a href="#">我是下拉1</a></li>
+
+                </ul>
+
+            </li>
+
+            <li class="libt">
+
+                <a href="#">菜单项</a>
+
+                <ul class="droplist">
+
+                    <li><a href="#">我是下拉1</a></li>
+
+                    <li><a href="#">我是下拉1</a></li>
+
+                    <li><a href="#">我是下拉1</a></li>
+
+                    <li><a href="#">我是下拉1</a></li>
+
+                    <li><a href="#">我是下拉1</a></li>
+
+                </ul>
+
+            </li>
+
+            <li class="libt">
+
+                <a href="#">菜单项</a>
+
+                <ul class="droplist">
+
+                    <li><a href="#">我是下拉1</a></li>
+
+                    <li><a href="#">我是下拉1</a></li>
+
+                    <li><a href="#">我是下拉1</a></li>
+
+                    <li><a href="#">我是下拉1</a></li>
+
+                    <li><a href="#">我是下拉1</a></li>
+
+                </ul>
+
+            </li>
+
+            <li class="libt">
+
+                <a href="#">菜单项</a>
+
+                <ul class="droplist">
+
+                    <li><a href="#">我是下拉1</a></li>
+
+                    <li><a href="#">我是下拉1</a></li>
+
+                    <li><a href="#">我是下拉1</a></li>
+
+                    <li><a href="#">我是下拉1</a></li>
+
+                    <li><a href="#">我是下拉1</a></li>
+
+                </ul>
+
+            </li>
+
+        </ul>
+
+    </div>
+
+
+
+
+</body>
+
+</html>
