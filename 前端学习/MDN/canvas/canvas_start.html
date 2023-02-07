@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas</title>
+    <!-- <script src="script.js" defer></script>
+    <link href="style.css" rel="stylesheet"> -->
+
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+        }
+    </style>
+
+</head>
+
+<body>
+    <canvas class='myCanvas' width="320" height="240">
+        <p>反馈信息</p>
+    </canvas>
+
+    <script>
+        var canvas = document.querySelector('.myCanvas')
+        var width = canvas.width = window.innerWidth
+        var height = canvas.height = window.innerWidth
+
+        var ctx = canvas.getContext('2d')
+        // ctx.fillStyle = 'rgb(0, 0, 0)';
+        // ctx.fillRect(0, 0, width, height);
+        ctx.fillStyle = 'rgba(255, 0, 255, 0.75)';
+        ctx.fillRect(25, 100, 175, 50);
+    </script>
+</body>
+
+</html>
